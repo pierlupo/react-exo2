@@ -1,16 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import Contact from './Components/Contact';
+import Liste from './Components/Liste';
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+     <React.StrictMode>
+     {/* <App /> */}
+     {/* <Contact></Contact> */}
+     <Liste></Liste>
+   </React.StrictMode>
   
-     <Contact></Contact>
-  
-);
+)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
