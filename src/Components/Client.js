@@ -7,6 +7,11 @@ export function Client(props){
             Nom : {nom}, Prénom : {prenom}, tel : {tel}
             <Address addresse={addresse}></Address>
             <span className={status ? 'green' : 'red'}>Statut : {status ? 'actif' : 'non actif'}</span>
+            <button className="btn" type="submit">Modifier le statut</button>
         </div>
     )
+}
+
+export function onClick(){
+    console.log("clic")
 }

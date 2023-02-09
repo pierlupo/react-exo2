@@ -35,7 +35,7 @@ export default class Liste extends Component {
       ],
     };
   }
-
+ 
   render() {
     // const { nom, prenom, tel, status } = this.state.contacts;
     // let statut = {status}

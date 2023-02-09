@@ -71,3 +71,8 @@ body{
 div{
   text-align: center;
 }
+
+.btn {
+  cursor:pointer;
+  margin:1rem;
+ }
